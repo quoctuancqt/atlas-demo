@@ -13,4 +13,4 @@ jobs:
         uses: ariga/atlas-action/migrate/apply@v1
         with:
           url: 'postgres://tuancao:bAbcam-fiksar-fazpa2@atlas-db.postgres.database.azure.com:5432/demo?search_path=public'
-          dir: 'migrations/'
+          dir: './migrations/'
